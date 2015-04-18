@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.laboki.eclipse.feature.jcolon"
+      label="Jcolon"
+      version="20150418"
+      provider-name="LABOKI">
+
+   <description url="http://mystilleef.github.io/eclipse4-jcolon/">
+      Jcolon intelligently inserts semicolons in Java source code, JDT, for Eclipse 4.
+   </description>
+
+   <copyright>
+      Copyright (c) 2015 by Lateef Alabi-Oki
+   </copyright>
+
+   <license url="https://www.eclipse.org/legal/epl-v10.html">
+      Eclipse Public License - v 1.0
+   </license>
+
+   <url>
+      <update label="Jcolon Update Site" url="https://raw.github.com/mystilleef/eclipse4-jcolon-updatesite/master/com.laboki.eclipse.updatesite.jcolon"/>
+      <discovery label="Jcolon Website" url="http://mystilleef.github.io/eclipse4-jcolon/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui" version="3.104.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.8.3" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.8.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.8.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="3.8.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.console" version="3.5.300" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.editors"/>
+   </requires>
+
+   <plugin
+         id="com.laboki.eclipse.plugin.jcolon"
+         download-size="0"
+         install-size="0"
+         version="20150418.0.0"
+         unpack="false"/>
+
+</feature>

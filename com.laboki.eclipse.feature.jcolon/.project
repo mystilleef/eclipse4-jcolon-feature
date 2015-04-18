@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>com.laboki.eclipse.feature.jcolon</name>
+	<comment></comment>
+	<projects>
+		<project>com.laboki.eclipse.plugin.jcolon</project>
+		<project>com.laboki.eclipse.updatesite.jcolon</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.mylyn.wikitext.ui.wikiTextValidationBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.pde.FeatureBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.pde.FeatureNature</nature>
+		<nature>org.eclipse.mylyn.wikitext.ui.wikiTextNature</nature>
+	</natures>
+</projectDescription>
